@@ -27,7 +27,7 @@ The variable **IS_SUCCESSFUL** is the target for the model as it is predicted ba
 
 <ins>Compiling, Training, and Evaluating the Model </ins>
 
-My initial optimization attempt had 3 had three layers (because it's an appropriate minimum) and 80 neurons (about double the number of columns in the dataset) in the first lowering the units from there. For the initial layers, I used the ReLu activation function for computational efficiency. For the final output layer, I used the sigmoid function as there was only one unit to calculate there. To increase model performance, I increased the number of neurons, layers, and epochs. Ultimately, I was unable to achieve target model performance of >75% accuracy. I look forward to learning more about optimizations in order to do so.
+My initial optimization attempt had 3 had three layers (because it's an appropriate minimum) and 80 neurons (about double the number of columns in the dataset) in the first lowering the units from there. For the initial layers, I used the ReLu activation function for computational efficiency. For the final output layer, I used the sigmoid function as there was only one unit to calculate there. To increase model performance, I increased the number of neurons, layers, and epochs on three iterations. Ultimately, I was unable to achieve target model performance of >75% accuracy. I look forward to learning more about optimizations in order to do so.
 </br>
 Were you able to achieve the target model performance? </br>
 
@@ -41,4 +41,4 @@ First Optimization Attempt:
 Final Optimization Attempt: 
 </br>
 <img src="https://user-images.githubusercontent.com/102936852/194787979-4933afbc-e064-44a9-b706-30ccf3547fa2.png" width="569"> </br> 
-<img src="https://user-images.githubusercontent.com/102936852/194788089-cd0ade9e-5eb5-4207-b2c4-350eccfca2e6.png" width="579"> 
+<img src="https://user-images.githubusercontent.com/102936852/194803659-99fa96c4-fbca-49c4-8a04-38a1c6dfcdea.png" width="579"> 
