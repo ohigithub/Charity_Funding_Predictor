@@ -31,20 +31,14 @@ My initial optimization attempt had 3 had three layers (because it's an appropri
 </br>
 Were you able to achieve the target model performance? </br>
 
-<ins>Summary</ins> Overall, this model was unsuccessful. I would recommend using activation functions differently to better compute the data. My code can be found [here](https://github.com/ohigithub/sql-challenge/tree/main/EmployeeSQL).
+<ins>Summary</ins> Overall, this model was unsuccessful. I would recommend using activation functions differently to better compute the data. My code can be found [here](https://github.com/ohigithub/deep-learning-challenge/tree/main/Optimizations).
 
 First Optimization Attempt: 
 </br>
 <img src="https://user-images.githubusercontent.com/102936852/194770166-00cd1bfb-469c-43b4-9d8e-2a724300c0a2.png" width="579"> </br> 
 <img src="https://user-images.githubusercontent.com/102936852/194785681-148ae4a7-41f1-420a-9ad1-2c895632ceaf.png" width="569"> 
 
-Second Optimization Attempt: 
-</br>
-<img src="https://user-images.githubusercontent.com/102936852/194788913-6f0087fc-0c31-481e-880a-115908d5cf18.png" width="569"> </br> <img src="https://user-images.githubusercontent.com/102936852/194786998-1302319c-f82e-40d9-b1bb-39c064e39e68.png" width="558">
-
 Final Optimization Attempt: 
 </br>
 <img src="https://user-images.githubusercontent.com/102936852/194787979-4933afbc-e064-44a9-b706-30ccf3547fa2.png" width="569"> </br> 
 <img src="https://user-images.githubusercontent.com/102936852/194788089-cd0ade9e-5eb5-4207-b2c4-350eccfca2e6.png" width="579"> 
-
-<ins>Summary</ins> Overall, this model was unsuccessful. I would recommend using activation functions differently to better compute the data. My code can be found [here](https://github.com/ohigithub/deep-learning-challenge/tree/main/Optimizations).
