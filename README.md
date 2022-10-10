@@ -21,19 +21,30 @@ From Alphabet Soup’s business team, I received a CSV containing more than 34,0
 
 <ins> Data Preprocessing </ins>
 
--The variable **IS_SUCCESSFUL** is the target for the model as it is predicted based on the feature variables </br> **APPLICATION_TYPE** and **CLASSIFICATION** </br>
--The variable(s) **EIN** and **NAME** were removed from the input data because they are neither targets nor features. </br>
+The variable **IS_SUCCESSFUL** is the target for the model as it is predicted based on the feature variables </br> **APPLICATION_TYPE** and **CLASSIFICATION**. The variable(s) **EIN** and **NAME** were removed from the input data because they are neither targets nor features. </br>
 
 <img src="https://user-images.githubusercontent.com/102936852/194770027-de8fc821-af16-4448-b1d9-569ebb939926.png" width="799">
 
 <ins>Compiling, Training, and Evaluating the Model </ins>
 
-My initial optimization attempt had 3 had three layers (because it's an appropriate minimum) and 80 neurons (about double the number of columns in the dataset) in the first layer tapering off from there. 
-
-How many neurons, layers, and activation functions did you select for your neural network model, and why? </br>
+My initial optimization attempt had 3 had three layers (because it's an appropriate minimum) and 80 neurons (about double the number of columns in the dataset) in the first lowering the units from there. For the initial layers, I used the ReLu activation function for computational efficiency. For the final output layer, I used the sigmoid function as there was only one unit to calculate there. To increase model performance, I increased the number of neurons, layers, and epochs. Ultimately, I was unable to achieve target model performance of >75% accuracy. I look forward to learning more about optimizations in order to do so.
+</br>
 Were you able to achieve the target model performance? </br>
-What steps did you take in your attempts to increase model performance? </br>
 
-<img src="https://user-images.githubusercontent.com/102936852/194770166-00cd1bfb-469c-43b4-9d8e-2a724300c0a2.png" width="579">
+<ins>Summary</ins> Overall, this model was unsuccessful. I would recommend using activation functions differently to better compute the data. My code can be found [here](https://github.com/ohigithub/sql-challenge/tree/main/EmployeeSQL).
 
-<ins>Summary: </ins> Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation. My code can be found [here](https://github.com/ohigithub/sql-challenge/tree/main/EmployeeSQL).
+First Optimization Attempt: 
+</br>
+<img src="https://user-images.githubusercontent.com/102936852/194770166-00cd1bfb-469c-43b4-9d8e-2a724300c0a2.png" width="579"> </br> 
+<img src="https://user-images.githubusercontent.com/102936852/194785681-148ae4a7-41f1-420a-9ad1-2c895632ceaf.png" width="569"> 
+
+Second Optimization Attempt: 
+</br>
+<img src="https://user-images.githubusercontent.com/102936852/194788913-6f0087fc-0c31-481e-880a-115908d5cf18.png" width="569"> </br> <img src="https://user-images.githubusercontent.com/102936852/194786998-1302319c-f82e-40d9-b1bb-39c064e39e68.png" width="558">
+
+Final Optimization Attempt: 
+</br>
+<img src="https://user-images.githubusercontent.com/102936852/194787979-4933afbc-e064-44a9-b706-30ccf3547fa2.png" width="569"> </br> 
+<img src="https://user-images.githubusercontent.com/102936852/194788089-cd0ade9e-5eb5-4207-b2c4-350eccfca2e6.png" width="579"> 
+
+<ins>Summary</ins> Overall, this model was unsuccessful. I would recommend using activation functions differently to better compute the data. My code can be found [here](https://github.com/ohigithub/deep-learning-challenge/tree/main/Optimizations).
